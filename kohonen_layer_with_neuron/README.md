@@ -10,4 +10,4 @@ Weights of the first neuron of the Kohonen layer are taken equal to normalized f
   
    
 example:    
-![til](.assets/GIFkohen.gif)   
+![til](./assets/GIFkohen.gif)   

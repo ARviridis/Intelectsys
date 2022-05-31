@@ -9,7 +9,7 @@ The process continues until the the composition of the clusters is stabilized.
 
 
 example:  
-![til](.k_averages/assets/GIF.gif)  
+![til](./k_averages/assets/GIF.gif)  
   
   
 The Kohonen layer works according to the "winner takes all" algorithm. For each neuron of the layer the excitation levelis calculated.
@@ -20,4 +20,5 @@ Weights of the first neuron of the Kohonen layer are taken equal to normalized f
   
    
 example:    
-![til](.kohonen_layer_with_neuron/assets/GIFkohen.gif)   
+![til](./kohonen_layer_with_neuron/assets/GIFkohen.gif)   
+  
