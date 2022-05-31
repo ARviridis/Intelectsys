@@ -2,16 +2,6 @@
 
 PyQt5,scipy,matplotlib,numpy
 
-The method of clustering by k averages requires the number of clusters to be set to k. 
-The first step in the feature space, the position of k centers of clusters is chosen arbitrarily, not necessarily coinciding with any images. 
-Then at each step, first, each image belongs to that cluster, the distance to the center of which for it is minimal, and secondly, after all images have been distributed into clusters the position of the cluster centers is recalculated. 
-The process continues until the the composition of the clusters is stabilized.
-
-
-example:  
-![til](.k_averages/assets/GIF.gif)  
-  
-  
 The Kohonen layer works according to the "winner takes all" algorithm. For each neuron of the layer the excitation levelis calculated.
 The neuron with the maximal value of s outputs one, all others output zero, forming vector Y. 
 The process of learning, which is actually clustering of the given set of images, consists in changing weights of the "winning" neuron.
@@ -20,4 +10,4 @@ Weights of the first neuron of the Kohonen layer are taken equal to normalized f
   
    
 example:    
-![til](.kohonen_layer_with_neuron/assets/GIFkohen.gif)   
+![til](.assets/GIFkohen.gif)   
